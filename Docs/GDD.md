@@ -1,92 +1,77 @@
-# GoalRush League Game Design Document
+# GoalRush League - Game Design Document
 
 ## 1. Game Overview
-
-GoalRush League is a football management and multiplayer match game inspired by Dream League Soccer. The player builds a football club, manages players, upgrades the squad, and competes in live online football matches.
+GoalRush League is an original football management and multiplayer match game inspired by Dream League Soccer. The player creates and develops a football club, hires and upgrades players, and participates in real-time online matches against other players.
 
 ## 2. Target Audience
-
-- Mobile gamers
-- Football fans
-- Competitive casual gamers
-- Players who enjoy team management and quick matches
+- Mobile football fans aged 13+
+- Team management game enthusiasts
+- Competitive online players
+- Casual mobile gamers
 
 ## 3. Core Gameplay Loop
+Create Club → Build Squad → Choose Formation → Play Match → Earn Rewards → Improve Team → Compete in League
 
-1. Create team
-2. Manage squad
-3. Upgrade players and stadium
-4. Enter match
-5. Earn rewards and progression
-6. Repeat and compete in leagues
-
-## 4. Core Features
+## 4. Main Features
 
 ### Team Management
-- Create club name
-- Set colors and logo
-- Build formation
-- Manage roster
+- Create club with custom name, colors, logo
+- Manage player roster
+- Select formation
 - Upgrade stadium
 
 ### Player System
-- Player stats: pace, shooting, passing, defense, stamina
-- Player roles and positions
-- Contract and morale system
-
-### Economy
-- Coins
-- Gems
-- Tickets
-- Reward chests
-- Transfer market
+- Player stats: pace, shooting, passing, defending, stamina
+- Player roles and levels
+- Transfer market (future)
 
 ### Match Gameplay
 - Real-time football match
-- Passing, shooting, sprinting, tackling, dribbling
+- Pass, shoot, sprint, tackle, dribble
 - Score goals and earn rewards
+- 90-second match timer (MVP)
+
+### Economy & Progression
+- Coins
+- Gems
+- Reward chests
+- Daily login bonus
+- Seasonal rewards
 
 ### Multiplayer
-- Matchmaking
-- Online lobby
-- Live synchronized gameplay
-- Leaderboard
+- Real-time online matchmaking
+- Photon Fusion for synchronization
+- Live match against real players
+- Leaderboard rankings
 
-## 5. Recommended Stack
+### League System
+- Division-based progression
+- Promotion and relegation
+- Weekly fixtures
+- Seasonal competitions
 
-- Unity + C#
+## 5. Tech Stack
+- Unity 2022 LTS
+- C#
 - Photon Fusion
-- Firebase/PlayFab
-- PostgreSQL/MongoDB
+- Firebase / PlayFab
+- PostgreSQL / MongoDB
 
 ## 6. MVP Scope
-
-- Login/register
-- Team creation
-- Squad roster
-- Simple match scene
-- Economy system
-- Online multiplayer scaffold
-- Basic leaderboard
-
-## 7. Development Roadmap
-
-### Phase 1
-- Game prototype
-- UI setup
+- User authentication
 - Club creation
-- Match scene
+- Squad roster
+- Match prototype
+- Economy and rewards
+- Basic leaderboard
+- Save/load system
 
-### Phase 2
-- Economy system
-- Player management
-- Saving data
+## 7. Development Timeline
+- Week 1-2: Prototype
+- Week 3-4: Economy + UI
+- Week 5-6: Multiplayer
+- Week 7-8: Leaderboard + league
+- Week 9-10: Polish + testing
 
-### Phase 3
-- Multiplayer matchmaking
-- League system
-- Rewards and leaderboard
-
-## 8. Notes
-
-This is an original game concept inspired by the football management and match systems found in mobile football games, but built as a fresh IP.
+## 8. Final Notes
+This is an original game concept inspired by mobile football games, but designed as a fresh IP.
