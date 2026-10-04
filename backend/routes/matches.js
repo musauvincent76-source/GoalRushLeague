@@ -13,7 +13,6 @@ router.post('/end', async (req, res) => {
     }
 
     const winnerTeamId = homeScore > awayScore ? homeTeamId : awayScore > homeScore ? awayTeamId : null;
-
     const matchUUID = matchId || uuidv4();
 
     await pool.query(
